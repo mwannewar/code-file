@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coffee King</title>
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet"> 
+	<!-- M Icons -->
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	 <!-- Acutal M -->
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	 <!-- custom css -->
+	 <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- NavBar -->
+<section class="fnavbar">
+	 <nav class="nav-fixed">
+   		 <div class="nav-wrapper">
+     		 <a href="#" class="brand-logo">CafeKing</a>
+     		 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      		<ul id="nav-mobile" class="right hide-on-med-and-down">
+       			<li><a href="#"onclick="toggleModal();">Home</a></li>
+        		<li><a href="#"onclick="toggleModal();">About Us</a></li>
+       			<li><a href="#"onclick="toggleModal();">Coffee</a></li>
+       			<li><a href="#"onclick="toggleModal();">Surprise!!!</a></li>
+       			<li><a href="#"onclick="toggleModal();">Contact</a></li>
+      		</ul>
+   		  </div>
+
+      </nav>
+
+  	  <ul class="sidenav" id="mobile-demo">
+    	<li><a href="#"onclick="toggleModal();">Home</a></li>
+        <li><a href="#"onclick="toggleModal();">About Us</a></li>
+       	<li><a href="#"onclick="toggleModal();">Coffee</a></li>
+       	<li><a href="#"onclick="toggleModal();">Surprise!</a></li>
+       	<li><a href="#"onclick="toggleModal();">Contact</a></li>
+      </ul>
+</section>
+
+<!-- Slider -->
+<section class="fslider">
+	<div class="slider">
+		<ul class="slides">
+			<li>
+				<img src="images/11.jpg" alt="image one">
+				<div class="caption center-align white-text">
+					<h3>CafeKing - Quality Cafe</h3>
+					<h5 class="light text-lighten-3">We serve one of the best coffee around</h5>
+				</div>
+			</li>
+			<li>
+				<img src="images/12.jpg" alt="image one">
+				<div class="caption center-align white-text">
+					<h3>CafeKing - Finest Coffee</h3>
+					<h5 class="light text-lighten-3">We serve one of the best coffee around</h5>
+				</div>
+			</li>
+		</ul>
+	</div>
+</section>
+
+
+<!-- Description -->
+<section class="descrip">
+	<div class="section white center">
+		<h2 class="header">CafeKing - Ulimate Quality Coffee</h2>
+		<div class="row container center">
+			<div class="col center l8 s12 move">
+				A coffeehouse, coffee shop, or café is an establishment that primarily serves coffee (of various types, e.g. espresso, latte, cappuccino). Some coffeehouses may serve cold drinks such as iced coffee and iced tea; in continental Europe, cafés serve alcoholic drinks. A coffeehouse may also serve food such as light snacks, sandwiches, muffins or pastries. Coffeehouses range from owner-operated small businesses to large multinational corporations. Some coffeehouse chains are franchise-based business models, with numerous branches across various countries around the world.
+
+While café may refer to a coffeehouse, the term "café" generally refers to a diner, British café (colloquially called a "caff"), "greasy spoon" (a small and inexpensive restaurant), transport café, teahouse or tea room, or other casual eating and drinking place.[1][2][3][4][5] A coffeehouse may share some of the same characteristics of a bar or restaurant, but it is different from a cafeteria. Many coffeehouses in the Middle East and in West Asian immigrant districts in the Western world offer shisha (actually called nargile in Levantine Arabic, Greek and Turkish), flavored tobacco smoked through a hookah. Espresso bars are a type of coffeehouse that specializes in serving espresso and espresso-based drinks..
+			</div>
+			<div class="col center l4 s12"><img src="images/16.jpg" style="object-fit: contain;" height="400" width="auto"></div>
+		</div>
+		
+	</div>
+</section>
+
+<!-- Cards -->
+<section class="fcard">
+	<div class="row" style="padding-left: 50px; padding-right: 50px">
+		<div class="col s12 m12 l4" style="padding: 50px 50px;">
+			 <div class="card">
+  				  <div class="card-image waves-effect waves-block waves-light">
+   					   <img class="activator" src="images/13.jpg">
+    			  </div>
+				  
+   				  <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Coffee Oneo<i class="material-icons right">more_vert</i></span>
+            	  </div>
+				  
+                 <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Coffee Oneo<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+             </div>
+		</div>
+		
+
+		<div class="col s12 m12 l4" style="padding: 50px 50px;">
+			<div class="card">
+  				  <div class="card-image waves-effect waves-block waves-light">
+   					   <img class="activator" src="images/14.jpg">
+    			  </div>
+   			<div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Coffee Oneo<i class="material-icons right">more_vert</i></span>
+            </div>
+               <div class="card-reveal">
+               <span class="card-title grey-text text-darken-4">Coffee Oneo<i class="material-icons right">close</i></span>
+               <p>Here is some more information about this product that is only revealed once clicked on.</p>
+               </div>
+             </div>
+		</div>
+		
+		<div class="col s12 m12 l4" style="padding: 50px 50px;">
+			<div class="card">
+  			<div class="card-image waves-effect waves-block waves-light">
+   		    <img class="activator" src="images/15.jpg">
+    	    </div>
+   		    <div class="card-content">
+             <span class="card-title activator grey-text text-darken-4">Coffee Oneo<i class="material-icons right">more_vert</i></span>
+             </div>
+             <div class="card-reveal">
+             <span class="card-title grey-text text-darken-4">Coffee Oneo<i class="material-icons right">close</i></span>
+             <p>Here is some more information about this product that is only revealed once clicked on.</p>
+             </div>
+             </div>
+		</div>
+	</div>
+</section>
+
+<!-- parallex -->
+<section class="fparallex">
+	<div class="parallax-container">
+      <div class="parallax"><img src="images/18.jpg"></div>
+    </div>
+</section>
+
+<!-- AboutUs -->
+<section class="fabout">
+	<div class="section white center">
+		<div class="row container">
+		  <h2 class="header">About Us</h2>
+		  <p class="grey-text text-darken-3">
+		   "The birth of the Coffeeshop Company can be traced back to 1999 when the first Coffeeshop opened its doors to its guests on a historical September day in Vienna.
+
+Characterized by a very special and unimitable atmosphere, the Coffeeshop Company is a new, unique interpretation of the ever-popular traditional Viennese coffee house culuture, which was included in the UNESCO list of ,,intangible cultural heritage’’ in 2011.." </p>
+		   <a href="#" class="btn waves-effect waves-light" style="background: #6f4037 !important;" onclick="toggleModal();">Read More</a>
+	    </div>
+	</div>
+</section>
+
+<!-- services -->
+<section class="fservices">
+	<div class="row" style="padding-right: 50px padding-left:50px">
+		<div class="col s12 l4 center" style="padding: 50px">
+			<i class="large material-icons icon-coffee">local_dining</i>
+			<h5 class="header">Variety of Coffee</h5>
+		</div>
+		<div class="col s12 l4 center" style="padding: 50px">
+			<i class="large material-icons icon-coffee">watch_later</i>
+			<h5 class="header">Variety of Coffee</h5>
+		</div>
+		<div class="col s12 l4 center" style="padding: 50px">
+			<i class="large material-icons icon-coffee">favorite</i>
+			<h5 class="header">Variety of Coffee</h5>
+		</div>
+	</div>
+</section>
+
+<!-- Corousel -->
+<section class="freviews">
+	<div class="section white center">
+		<h3 class="header">What our customers say</h3>
+		<div class="carousel myreviews" style="margin-bottom: 30px;">
+			<a href="#" class="carousel-item">
+				<div class="row">
+					<div class="col s12">
+						<div class="card-panel teal" style="background-color: #6f4037 !important;">
+							<span class="white-text">One Review</span>
+							<p class="white-text">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+						</div>
+					</div>
+				</div>
+			</a>
+
+			<a href="#" class="carousel-item">
+				<div class="row">
+					<div class="col s12">
+						<div class="card-panel teal" style="background-color: #6f4037 !important;">
+							<span class="white-text">One Review</span>
+							<p class="white-text">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+						</div>
+					</div>
+				</div>
+			</a>
+
+			<a href="#" class="carousel-item">
+				<div class="row">
+					<div class="col s12">
+						<div class="card-panel teal" style="background-color: #6f4037 !important;">
+							<span class="white-text">One Review</span>
+							<p class="white-text">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+						</div>
+					</div>
+				</div>
+			</a>
+
+			<a href="#" class="carousel-item">
+				<div class="row">
+					<div class="col s12">
+						<div class="card-panel teal" style="background-color: #6f4037 !important;">
+							<span class="white-text">One Review</span>
+							<p class="white-text">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+						</div>
+					</div>
+				</div>
+			</a>
+
+			<a href="#" class="carousel-item">
+				<div class="row">
+					<div class="col s12">
+						<div class="card-panel teal" style="background-color: #6f4037 !important;">
+							<span class="white-text">One Review</span>
+							<p class="white-text">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+						</div>
+					</div>
+				</div>
+			</a>
+
+			<a href="#" class="carousel-item">
+				<div class="row">
+					<div class="col s12">
+						<div class="card-panel teal" style="background-color: #6f4037 !important;">
+							<span class="white-text">One Review</span>
+							<p class="white-text">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+						</div>
+					</div>
+				</div>
+			</a>
+
+			<a href="#" class="carousel-item">
+				<div class="row">
+					<div class="col s12">
+						<div class="card-panel teal" style="background-color: #6f4037 !important;">
+							<span class="white-text">One Review</span>
+							<p class="white-text">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+						</div>
+					</div>
+				</div>
+			</a>
+
+
+
+		</div>
+	</div>
+</section>
+
+
+<!-- footer -->
+<section class="ffooter">
+	<footer class="footer-one">
+		<div class="container">
+			<div class ="row">
+				<div class="col s12 l6">
+					<h4 class="white-text">Contact Us</h4>
+					<p class="grey-text">LIC SQUARE,NAGPUR</p>
+					<p class="grey-text">+917768996011</p>
+					<p class="grey-text">+919307278736</p>
+				</div>
+				<div class="col s12 l6">
+					<h4 class="white-text">Social Medias</h4>
+					<ul>
+						<li>
+							<a href="#" class="grey-text">Facebook</a>
+						</li>
+						<li>
+							<a href="#" class="grey-text">Instagram</a>
+						</li>
+						<li>
+							<a href="#" class="grey-text">Twitter</a>
+						</li>
+						<li>
+							<a href="#" class="grey-text">Whatsapp</a>
+						</li>
+						
+						<li>
+							<a href="#" class="grey-text">Linkdln</a>
+						</li>
+						
+						<li>
+							<a href="#" class="grey-text">Messenger</a>
+						</li>
+						
+						
+						
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row footer-two">
+			<div class="col s12 l6">
+				<p class="white-text">&copy; CafeKing.com</p>
+			</div>
+			<div class="col s12 l6">
+				<p class="white-text">Designed by Web Devs team</p>
+			</div>
+		</div>
+
+	</footer>
+</section>
+
+<!-- Toggle -->
+<!-- <a href="#" onclick="toggleModal();">Click Me</a> -->
+<section class="infomodal">
+	<div id="modal3" class="modal">
+		<div class="modal-content">
+			<h4 id="info-modal-heading">Link Disabled</h4>
+			<p id="info-modal-content">Sorry! All links are disabled as of now</p>
+		</div>
+		<div class="modal-footer">
+			<a href="#" class="modal-close waves-effect btn-flat">Close</a>
+		</div>
+	</div>
+</section>
+
+</body>
+
+<!-- JQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+
+<!-- M Script -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+ <!-- custom js -->
+ <script src="js/loader.js"></script>
+
+</html>
